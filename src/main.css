@@ -1,0 +1,24 @@
+.app {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(hsl(352, 63%, 74%), #ec4f90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  height: 80vh;
+  width: 25%;
+  box-shadow: 0 2rem 4rem darkgray;
+  background-color: rgb(49, 48, 48);
+}
+.result-screen {
+  height: 10vh;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 1px;
+  /* To display the value at the bottom-right of the container */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
