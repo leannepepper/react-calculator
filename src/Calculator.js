@@ -6,7 +6,7 @@ const Calculator = (props) => {
     return (
     <main className="calculator"> 
         <Screen result= {props.result}/> 
-        <Keypad /> 
+        <Keypad handleMath = {props.handleMath}/> 
      </main>
     )
     

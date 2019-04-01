@@ -1,45 +1,41 @@
 .app {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(rgb(238, 169, 157),  rgb(255, 82, 51));
+  background: linear-gradient(rgb(255, 255, 255),  rgb(240, 79, 15));
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
 }
 .calculator {
-  height: 80vh;
+  height: 70vh;
   width: 25%;
   min-width: 310px;
   box-shadow: 0 2rem 4rem darkgray;
-  background-color: rgb(49, 48, 48);
+  background-color: rgb(194, 194, 194);
 }
 .screen {
-  height: 20vh;
+  height: 15vh;
   padding: 5px;
   overflow: hidden;
   color: white;
-  background-color: rgb(255, 82, 51);
+  background-color: rgb(240, 79, 15);
 }
 .result-screen {
-  height: 10vh;
+ height: 100%;
   font-size: 36px;
   letter-spacing: 2px;
-  margin-bottom: 25px;
+  
   /* To display the value at the bottom-right of the container */
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
  
 }
-.computation-screen {
-  letter-spacing: 3px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
 .button {
-  height: 59vh;
+  height: 60vh;
   display: flex;
   flex-wrap: wrap;
   
@@ -47,4 +43,5 @@
 .button-tile {
   width: 25%;
   font-size: 20px;
+  background-color: white;
 }
