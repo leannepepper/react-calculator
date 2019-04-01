@@ -1,10 +1,12 @@
 import React from 'react';
 import Screen from './screen/Screen.js';
+import Keypad from './keypad/keypad.js';
 
-const Calculator = () => {
+const Calculator = (props) => {
     return (
     <main className="calculator"> 
-        <Screen /> 
+        <Screen result= {props.result}/> 
+        <Keypad /> 
      </main>
     )
     

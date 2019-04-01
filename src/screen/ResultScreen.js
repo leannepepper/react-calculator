@@ -1,12 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const ResultScreen = () => {
-    return (
-        <div className="result-screen">
-            3324234
-        </div>
+const ResultScreen= (props) =>  {
+
+return (
+    <div className="result-screen">
+        <p>{props.result}</p>
+    </div>
     )
+        
 }
 
 
-export default ResultScreen; 
+
+export default ResultScreen;
+

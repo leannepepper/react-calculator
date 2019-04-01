@@ -2,8 +2,8 @@ import React from 'react';
 
 const ComputationScreen = () => {
     return (
-        <div>
-            ComputationScreen 
+        <div className="computation-screen">
+        3000+ 27 - 3 
         </div>
     )
 }
